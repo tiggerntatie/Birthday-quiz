@@ -46,9 +46,9 @@ elif month == September and day == 24:
     print ("Happy Birthday")
 elif 1950 > year >= 1940:
     print ("{0}, you were a 40's baby." format.(name))
-elif 1960 > year >= 1950
+elif 1960 > year >= 1950:
     print ("{0}, you were a 50's baby." format.(name))
-elif 1970 > year >= 1960
+elif 1970 > year >= 1960:
     print ("{0}, you were a 60's baby." format.(name))
-elif 1980 > year >= 1970
+elif 1980 > year >= 1970:
     print ("{0}, you were a 70's baby." format.(name))
