@@ -34,15 +34,21 @@ Example Session
 
 
 
-name = input("What is your name?")
-month = float(input("What month were you born?"))
-year = float(input("What year were you born"))
-day = float(input("What day were you born"))
+name = input("What is your name? ")
+month = float(input("What month were you born? "))
+year = float(input("What year were you born "))
+day = float(input("What day were you born "))
 
 
 if month == October and day == 31:
     print ("You were born on Halloween!")
 elif month == September and day == 24:
     print ("Happy Birthday")
-#elif 1950 >= year >= 1940:
-    #print ("{0}, you were a 40's baby." format.(name))
+elif 1950 > year >= 1940:
+    print ("{0}, you were a 40's baby." format.(name))
+elif 1960 > year >= 1950
+    print ("{0}, you were a 50's baby." format.(name))
+elif 1970 > year >= 1960
+    print ("{0}, you were a 60's baby." format.(name))
+elif 1980 > year >= 1970
+    print ("{0}, you were a 70's baby." format.(name))
