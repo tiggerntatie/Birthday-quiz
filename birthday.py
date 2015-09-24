@@ -1,6 +1,6 @@
 """
 birthday.py
-Author: <your name here>
+Author: Ryan Kynor
 Credit: <list sources used, if any>
 Assignment:
 
@@ -31,3 +31,18 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+
+
+
+name = input("What is your name?")
+month = float(input("What month were you born?"))
+year = float(input("What year were you born"))
+day = float(input("What day were you born"))
+
+
+if month == October and day == 31:
+    print ("You were born on Halloween!")
+elif month == September and day == 24:
+    print ("Happy Birthday")
+#elif 1950 >= year >= 1940:
+    #print ("{0}, you were a 40's baby." format.(name))
