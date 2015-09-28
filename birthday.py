@@ -49,4 +49,8 @@ day = input("And the day? ")
 if month == "October" and int(day) == 31:
     print ("You were born on Halloween!")
 
+elif month == "Current month" and day == "Current day":
+    print ("Happy Birthday {0} " .format(name))
+    
+
 elif 
