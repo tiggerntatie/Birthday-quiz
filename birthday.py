@@ -1,7 +1,9 @@
 """
 birthday.py
 Author: Ryan Kynor
-Credit: <list sources used, if any>
+Credit:
+http://www.cyberciti.biz/faq/howto-get-current-date-time-in-python/
+
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -33,22 +35,18 @@ Example Session
 """
 
 
+import time
 
-name = input("What is your name? ")
-month = float(input("What month were you born? "))
-year = float(input("What year were you born "))
-day = float(input("What day were you born "))
+## Only date representation
+#print ("Current date "  + time.strftime("%x"))
 
 
-if month == October and day == 31:
+name = input("Hello, what is your name? ")
+month = input("Hi {0}, what was the name of the month you were born in? " .format(name))
+year = input("And what year were you born in, {0}? " .format(name))
+day = input("And the day? ")
+
+if month == "October" and int(day) == 31:
     print ("You were born on Halloween!")
-elif month == September and day == 24:
-    print ("Happy Birthday")
-elif 1950 > year >= 1940:
-    print ("{0}, you were a 40's baby." format.(name))
-elif 1960 > year >= 1950:
-    print ("{0}, you were a 50's baby." format.(name))
-elif 1970 > year >= 1960:
-    print ("{0}, you were a 60's baby." format.(name))
-elif 1980 > year >= 1970:
-    print ("{0}, you were a 70's baby." format.(name))
+
+elif 
