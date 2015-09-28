@@ -52,11 +52,18 @@ if month == "October" and int(day) == 31:
     
 if year<"1999" and year>"1990":
     yearage = "90's"
-    
+if year<"1989" and year>"1980":
+    yearage = "80's"
+if year>= "2000"
+    yearage = "2000's"
+if year<"1980"
+    yearage = "stone age"
 
-elif month == "Current month" and day == "Current day":
+
+if month == "Current month" and day == "Current day":
     print ("Happy Birthday {0} " .format(name))
     
     
 elif month == "December" or "January" or "Febuary":
     print ("{0}, you are a winter baby of the {1} " .format(name, yearage))
+elif month == "
