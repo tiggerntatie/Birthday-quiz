@@ -52,7 +52,7 @@ day = input("And the day? ")
 
 if month == "October" and int(day) == 31:
     print ("You were born on Halloween!")
-    
+
     
 if year<="1999" and year>="1990":
     yearage = "nineties."
