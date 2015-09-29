@@ -35,7 +35,10 @@ Example Session
 """
 
 
-import time
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
 
 ## Only date representation
 #print ("Current date "  + time.strftime("%x"))
@@ -60,7 +63,7 @@ if year<"1980":
     yearage = "stone age."
 
 
-if month == "Current month" and day == "Current day":
+if month == todaymonth and day == todayday:
     print ("Happy birthday {0} ".format(name))
 elif month == "December" or "January" or "Febuary":
     print ("{0}, you are a winter baby of the {1}".format(name, yearage))
