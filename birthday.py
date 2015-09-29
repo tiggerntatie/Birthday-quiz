@@ -54,13 +54,13 @@ if month == "October" and int(day) == 31:
     print ("You were born on Halloween!")
 
     
-if year<="1999" and year>="1990":
+if year =< "1999" and year => "1990":
     yearage = "nineties."
-if year<="1989" and year>="1980":
+if year =< "1989" and year => "1980":
     yearage = "eighties."
-if year>="2000":
+if year => "2000":
     yearage = "two thousands."
-if year<"1980":
+if year < "1980":
     yearage = "stone age."
 
 
