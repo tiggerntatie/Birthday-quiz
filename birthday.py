@@ -55,13 +55,13 @@ if month == "October" and int(day) == 31:
 else:
     
     if year <= "1999" and year >= "1990":
-    yearage = "nineties."
+        yearage = "nineties."
     if year <= "1989" and year >= "1980":
-    yearage = "eighties."
+        yearage = "eighties."
     if year >= "2000":
-    yearage = "two thousands."
+        yearage = "two thousands."
     if year < "1980":
-    yearage = "stone age."
+        yearage = "stone age."
 
     
     if month == month_name[todaymonth] and int(day) == todaydate:
