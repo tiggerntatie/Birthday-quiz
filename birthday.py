@@ -61,7 +61,7 @@ if year<"1980":
 
 
 if month == "Current month" and day == "Current day":
-    print ("Happy Birthday {0} ".format(name))
+    print ("Happy birthday {0} ".format(name))
 elif month == "December" or "January" or "Febuary":
     print ("{0}, you are a winter baby of the {1}".format(name, yearage))
 elif month == "March" or "April" or "May":
