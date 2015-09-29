@@ -58,7 +58,7 @@ else:
         yearage = "nineties."
     if year <= "1989" and year >= "1980":
         yearage = "eighties."
-    if year >= "2000":
+    if year > "1999":
         yearage = "two thousands."
     if year < "1980":
         yearage = "stone age."
