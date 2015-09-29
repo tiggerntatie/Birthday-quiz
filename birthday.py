@@ -64,7 +64,7 @@ if year<"1980":
     yearage = "stone age."
 
 
-if month == month2 and day == todayday:
+if month == todaymonth and day == todayday:
     print ("Happy birthday {0} ".format(name))
 elif month == "December" or "January" or "Febuary":
     print ("{0}, you are a winter baby of the {1}".format(name, yearage))
