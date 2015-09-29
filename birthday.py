@@ -57,7 +57,7 @@ if year<"1989" and year>"1980":
 if year>="2000":
     yearage = "two thousands."
 if year<"1980":
-    yearage = "Stone Age."
+    yearage = "stone age."
 
 
 if month == "Current month" and day == "Current day":
