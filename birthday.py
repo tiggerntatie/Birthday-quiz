@@ -42,8 +42,8 @@ import time
 
 
 name = input("Hello, what is your name? ")
-month = input("Hi {0}, what was the name of the month you were born in? " .format(name))
-year = input("And what year were you born in, {0}? " .format(name))
+month = input("Hi {0}, what was the name of the month you were born in? ".format(name))
+year = input("And what year were you born in, {0}? ".format(name))
 day = input("And the day? ")
 
 if month == "October" and int(day) == 31:
@@ -51,22 +51,22 @@ if month == "October" and int(day) == 31:
     
     
 if year<"1999" and year>"1990":
-    yearage = "nineties"
+    yearage = "nineties."
 if year<"1989" and year>"1980":
-    yearage = "eighties"
-if year>= "2000"
-    yearage = "two thousands"
-if year<"1980"
-    yearage = "Stone Age"
+    yearage = "eighties."
+if year>="2000":
+    yearage = "two thousands."
+if year<"1980":
+    yearage = "Stone Age."
 
 
 if month == "Current month" and day == "Current day":
-    print ("Happy Birthday {0} " .format(name))
+    print ("Happy Birthday {0} ".format(name))
 elif month == "December" or "January" or "Febuary":
-    print ("{0}, you are a winter baby of the {1} " .format(name, yearage))
+    print ("{0}, you are a winter baby of the {1}".format(name, yearage))
 elif month == "March" or "April" or "May":
-    print ("{0}, you are a spring baby of the {1} " .format(name, yearage))
+    print ("{0}, you are a spring baby of the {1}".format(name, yearage))
 elif month == "June" or "July" or "August":
-    print ("{0}, you are a summer baby of the {1} " .format(name, yearage))
+    print ("{0}, you are a summer baby of the {1}".format(name, yearage))
 else:
-    print ("{0}, you are a fall baby of the {1} " .format(name, yearage))
+    print ("{0}, you are a fall baby of the {1}".format(name, yearage))
