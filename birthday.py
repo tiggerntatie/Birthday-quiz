@@ -1,8 +1,7 @@
 """
 birthday.py
 Author: Ryan Kynor
-Credit:
-http://www.cyberciti.biz/faq/howto-get-current-date-time-in-python/
+Credit: http://www.cyberciti.biz/faq/howto-get-current-date-time-in-python/
 
 Assignment:
 
