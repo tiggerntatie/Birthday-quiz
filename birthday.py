@@ -65,11 +65,11 @@ else:
     
     if month == month_name[todaymonth] and int(day) == todaydate:
         print ("Happy birthday!")
-    elif month is ["December" , "January" , "Febuary"]:
+    elif month in ["December" , "January" , "Febuary"]:
         print ("{0}, you are a winter baby of the {1}".format(name, yearage))
-    elif month is ["March" , "April" , "May"]:
+    elif month in ["March" , "April" , "May"]:
         print ("{0}, you are a spring baby of the {1}".format(name, yearage))
-    elif month is ["June" , "July" , "August"]:
+    elif month in ["June" , "July" , "August"]:
         print ("{0}, you are a summer baby of the {1}".format(name, yearage))
     else:
         print ("{0}, you are a fall baby of the {1}".format(name, yearage))
