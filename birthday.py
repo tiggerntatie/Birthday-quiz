@@ -61,9 +61,12 @@ nineties = [1990, 1991, 1992, 1993, 1994, 1995,
 1996, 1997, 1998, 1999]
 twoThousands = [2000, 2001, 2002, 2003, 2004, 2005,
 2006, 2007, 2008, 2009, 2010] 
+
+if yrOfbirth in eighties:
+    
 DOB = str(input("And the day?")) 
  
-print("" + name + " you are a {0} baby".format(Season)) 
+print(name + " you are a "+ Season + "baby of the" +  +(Season)) 
 
 
 
