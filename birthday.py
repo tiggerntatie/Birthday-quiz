@@ -54,7 +54,7 @@ elif birthMonth in summer:
 elif birthMonth in fall:
     Season = "fall"
 
-yrOfbirth = str(input("And what year are you born " + name + "?")) 
+yrOfbirth = int(input("And what year are you born " + name + "?")) 
 eighties = [1980, 1981, 1982, 1983, 1984, 
 1985, 1986, 1987, 1988, 1989] 
 nineties = [1990, 1991, 1992, 1993, 1994, 1995,
@@ -63,10 +63,14 @@ twoThousands = [2000, 2001, 2002, 2003, 2004, 2005,
 2006, 2007, 2008, 2009, 2010] 
 
 if yrOfbirth in eighties:
+    Era = "eighties"
+elif yrOfbirth in nineties: 
+    Era = "ninties"
+elif yrOfbirth in twoThousands:
+    Era = "two thousands"
     
 DOB = str(input("And the day?")) 
- 
-print(name + " you are a "+ Season + "baby of the" +  +(Season)) 
+print(name + " you are a "+ Season + " baby of the " + Era +".") 
 
 
 
