@@ -38,7 +38,7 @@ todaydate = datetime.today().day
 
 
 name = str(input("Hello what is your name? "))
-birthMonth = str(input("Hello " + name + ", what is the name of the month you were born in?")) 
+birthMonth = str(input("Hello " + name + ", what was the name of the month you were born in?")) 
 
 winter = ["December", "January", "February"]
 spring = ["March", "April", "May"]
@@ -65,15 +65,15 @@ twoThousands = [2000, 2001, 2002, 2003, 2004, 2005,
 if yrOfbirth in eighties:
     Era = "eighties"
 elif yrOfbirth in nineties: 
-    Era = "ninties"
+    Era = "nineties"
 elif yrOfbirth in twoThousands:
     Era = "two thousands"
 
 DOB = str(input("And the day?")) 
 
-if DOB == todaydate and todaymonth == birthMonth: 
+if int(DOB) == todaydate and month_name[int(todaymonth)] == birthMonth: 
     print("Happy birthday!") 
-elif birthMonth == "October" and DOB == 31: 
+elif birthMonth == "October" and int(DOB) == 31: 
     print("Happy Halloween!") 
 else: 
     print(name + " you are a "+ Season + " baby of the " + Era +".") 
