@@ -68,8 +68,13 @@ elif yrOfbirth in nineties:
     Era = "ninties"
 elif yrOfbirth in twoThousands:
     Era = "two thousands"
-    
+
 DOB = str(input("And the day?")) 
+
+if DOB == todaydate and todaymonth == birthMonth: 
+    print("Happy birthday!") 
+elif birthMonth == "October" and DOB == 31: 
+    print("Happy Halloween!") 
 print(name + " you are a "+ Season + " baby of the " + Era +".") 
 
 
