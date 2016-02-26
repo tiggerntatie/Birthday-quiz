@@ -75,7 +75,8 @@ if DOB == todaydate and todaymonth == birthMonth:
     print("Happy birthday!") 
 elif birthMonth == "October" and DOB == 31: 
     print("Happy Halloween!") 
-print(name + " you are a "+ Season + " baby of the " + Era +".") 
+else: 
+    print(name + " you are a "+ Season + " baby of the " + Era +".") 
 
 
 
