@@ -54,7 +54,7 @@ elif birthMonth in summer:
 elif birthMonth in fall:
     Season = "fall"
 
-yrOfbirth = int(input("And what year are you born " + name + "? ")) 
+yrOfbirth = int(input("And what year were you born in " + name + "? ")) 
 eighties = [1980, 1981, 1982, 1983, 1984, 
 1985, 1986, 1987, 1988, 1989] 
 nineties = [1990, 1991, 1992, 1993, 1994, 1995,
